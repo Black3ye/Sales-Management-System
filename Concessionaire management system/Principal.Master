@@ -1,0 +1,64 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Principal.master.vb" Inherits="Concessionaire_management_system.Principal" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <style type="text/css">
+        .a {
+            Width:90px;
+            Height:30px;
+            background-color:white;
+            color:#797d7f;
+            font-family:Arial;
+        }
+        .ap{
+            Width:90px;
+            Height:30px;
+            background-color:white;
+            color:#797d7f;
+            font-family:Arial;
+            margin-left:33%
+        }
+        .al{
+            Width:90px;
+            Height:30px;
+            background-color:white;
+            color:#797d7f;
+            font-family:Arial;
+            margin-left:30px;
+        }
+        .a:hover,.ap:hover,.al:hover{
+            background-color:#F2F4F4;
+            color:black;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div width: 1220px>
+            <div style="height: 32px; margin-top: 20px; width: 100%;">
+                
+                <asp:Button ID="B_Home" runat="server" Text="Home" BorderStyle="None" CssClass="ap"/>
+                <asp:Button ID="B_Client" runat="server"  BorderStyle="None" Text="Client" CssClass="a"/>
+                <asp:Label ID="Label1" runat="server" Font-Size="20pt" Text="Sales Management System" style="margin-top:10px; font-family:Arial; margin-left:30px;"></asp:Label>
+                <asp:Button ID="B_Sales" runat="server" Text=" Sales" BorderStyle="None" CssClass="al"/>
+                <asp:Button ID="B_report" runat="server" Text="Reports" BorderStyle="None" CssClass="a"/>
+                <asp:Button ID="B_logout" runat="server" Text="Log Out" BorderStyle="None" CssClass="a"/>
+            </div>
+        </div>
+            <hr style="width: 100%" />
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                
+            </asp:ContentPlaceHolder>
+        
+        <hr style="width: 100%" />
+        <br />
+        <asp:Label ID="Label2" runat="server" Font-Size="7pt" Text="Copyright &copy; 2021 Jose Garcia & Bossuet Torres" style="margin-top:10px; font-family:Arial; margin-left:45%;"></asp:Label>
+    </form>
+</body>
+</html>
