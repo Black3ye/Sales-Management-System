@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Sales.aspx.vb" Inherits="Concessionaire_management_system.Sales" MasterPageFile="Principal.Master"%>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Sales.aspx.vb" Inherits="Sales_management_system.Sales" MasterPageFile="Principal.Master"%>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <title>Sales Menu</title>

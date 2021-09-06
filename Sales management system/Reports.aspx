@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Reports.aspx.vb" Inherits="Concessionaire_management_system.Reports" MasterPageFile="Principal.Master" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Reports.aspx.vb" Inherits="Sales_management_system.Reports" MasterPageFile="Principal.Master" %>
 
 
     <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
